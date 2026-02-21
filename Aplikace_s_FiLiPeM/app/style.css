@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* horní část */
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* střed */
+.main {
+    margin-top: 40px;
+}
+
+/* spodní menu */
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.bottom button {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    background: #0aa;
+    color: white;
+    font-size: 16px;
+}
+
+.main-btn {
+    background: #d6a4ff;
+    font-size: 20px;
+}
