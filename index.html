@@ -2,28 +2,32 @@
 <html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Moje aplikace</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Název aplikace</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
     <div class="top">
-        <span>🔥 STREAK</span>
-        <h1>Jméno aplikace</h1>
-        <span>🔔</span>
-    </div>
+        <div class="top-bar">
+            <span class="streak">STREAK 🔥: 0</span>
+            <span class="bell">🔔</span>
+        </div>
 
-    <div class="main">
-        <p>Najdi někoho nového 👀</p>
-        <p>Počet coinů: 0</p>
+        <h1>Název aplikace</h1>
+        <p class="subtitle">Najdi někoho nového 👀 😘</p>
+        <p class="coins">Coiny 🪙: 0</p>
     </div>
 
     <div class="bottom">
-        <button>CHATY</button>
         <button class="main-btn">SWIPI</button>
-        <button>PROFIL</button>
+
+        <div class="secondary">
+            <button>CHATY 💬</button>
+            <button>PROFIL 👤</button>
+        </div>
     </div>
 
 </body>
